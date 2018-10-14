@@ -11,8 +11,8 @@ import skimage.transform as trans
 import numpy as np
 from sklearn.metrics import confusion_matrix
 
-label_Path = "data/hncmri/testLabel"
-test_Path = "data/hncmri/test/testPredict"
+label_Path = "yourPath/testLabel"
+test_Path = "YourPath/testPredict"
 
 
 def diceScoreCal(test_Path,label_Path,num_image=60,target_size = (512,512),as_gray = True,data_type = np.bool_):
